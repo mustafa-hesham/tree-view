@@ -1,0 +1,30 @@
+.TreeViewSearch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TreeViewForm {
+    width: fit-content;
+    background-color: gray;
+    padding-inline: 5px;
+    height: 100%;
+}
+
+.TreeViewForm-Button {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    margin-inline-start: 20px;
+}
+
+.TreeViewForm-Inputs {
+    padding-block-start: 5px;
+    display: flex;
+}
+
+.TreeViewForm-Search::placeholder {
+    text-align: center;
+}
